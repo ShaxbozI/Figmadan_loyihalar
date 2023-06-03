@@ -1,0 +1,31 @@
+.navbar-section{
+    background-color: #E0B973;
+}
+
+
+.contact-us h1{
+    font-size: 52px;
+}
+/* about */
+.card label{
+    color: #14274A;
+}
+.card input{
+    border: 2px solid #A2A9B6;
+    box-sizing: border-box;
+    padding: 0.75rem 1.25rem;
+}
+.message textarea{
+    border: 2px solid #A2A9B6;
+}
+.submit button{
+    padding: 0.85rem 1.35rem;
+    background: #E0B973;
+    cursor: pointer;
+}
+/* /about */
+
+
+footer{
+    margin-top: 17.5rem;
+}

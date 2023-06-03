@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fenix&family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background: #F7F7F7;
+}
+
+.container{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+/* navbar */
+.section-navbar{
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(22, 27, 73, 0.5);
+}
+
+.navbar-container{
+    position: relative;
+    width: 1024px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    padding: 0.65rem 1.85rem;
+    border-bottom-left-radius: 2.5rem;
+    border-bottom-right-radius: 2.5rem;
+    background: rgb(20,39,74);
+}
+
+.logo h1, .logo h4 {
+    font-family: 'Fenix', serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #E0B973;
+    letter-spacing: 0.15rem;
+    padding-bottom: 2px;
+    margin: 0;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu li{
+    font-size: 16px;
+    list-style: none;
+    font-weight: 700;
+    display: inline-block;
+    padding-left: 3.75rem;
+}
+
+.section-title{
+    margin-top: 9.5rem;
+    font-size: 2rem;
+}
+
+.section-title h1, h4, h6{
+    margin: 0;
+}
+
+.title{
+    font-family: 'Fenix', serif;
+    font-weight: 500;
+    color: rgb(224,185,115);
+    letter-spacing: 0.65rem;
+}
+
+.large1{
+    font-size: 5.65rem;
+}
+
+.large2{
+    font-size: 2.5rem;
+}
+
+.section-title p, 
+.section-title h4{
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: white;
+}
+
+.section-title p{
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.nav-btn{
+    margin-top: 3.15rem;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.nav-btn h1 img{
+    width: 1.15rem;
+    margin-right: 5px;
+}
+
+.nav-btn h1{
+    margin: 0.65rem;
+    color: #E0B973;
+    padding: 0.90rem 3.75rem;
+    border-radius: 0.65rem;
+    font-size: 1.25rem;
+    background: rgb(20,39,74);
+    max-width: max-content;
+}
+
+.nav-btn a img{
+    width: 2.5rem;
+    margin-bottom: 5px;
+}
+
+.nav-btn a{
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+/* /navbar */
+
+
+/* footer */
+.section-footer{
+    padding: 1.25rem 0;
+    font-size: 0.75rem;
+    margin-top: 2.5rem;
+    background: rgb(20,39,74);
+}
+
+.footer {
+    display: flex;
+}
+
+.footer > div{
+    width: 25%;
+}
+
+.logo-name h1,
+.logo-name h4{
+    margin: 0;
+    text-align: center;
+    color: #E0B973;
+}
+
+.logo-name{
+    max-width: max-content;
+}
+
+.footer-about{
+    font-size: 0.65rem;
+}
+
+.footer-about p{
+    color: white;
+}
+
+.footer li{
+    list-style: none;
+    margin-bottom: 0.65rem;
+}
+
+.footer-subscribe p{
+    color: white;
+}
+
+.footer-subscribe form input{
+    padding: 0.65rem;
+    width: 70%;
+    color: white;
+    outline: #E0B973;
+    height: 0.65rem;
+    border: 2px solid #E0B973;
+    border-right: 3.15rem solid #E0B973;
+    background: none;
+}
+
+.footer-subscribe form{
+    position: relative;
+}
+
+.footer-subscribe form label{
+    position: absolute;
+    top: 3px;
+    right: 0.5rem;
+    padding: 7px;
+}
+
+.footer-subscribe label button{
+    color: rgb(20,39,74);
+    background: none;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.footer-social span i{
+    width: 1.55rem;
+}
+/* /footer */

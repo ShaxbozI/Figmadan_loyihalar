@@ -1,0 +1,12 @@
+.navbar-section{
+    background-image: url(../image/ciudad-maderas-wievport-1.jpg);
+}
+
+/* about */
+.page-btn{
+    color: rgb(20,39,74);
+    padding: 0.67rem 3.1rem;
+    background: #E0B973;
+    cursor: pointer;
+}
+/* /about */

@@ -1,0 +1,35 @@
+.section-navbar{
+    background-image: url(../image/palm-trees-at-night-wievport-2.png);
+}
+
+
+/* about */
+.about-title{
+    text-align: center;
+    margin-top: 3.1rem;
+}
+.card-img{
+    position: relative;
+    margin-bottom: 6.7rem;
+}
+.card-img img{
+    width: 100%;
+}
+.card-img p{
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    bottom: 4px;
+    transform: translate(-50%);
+    font-size: 1.85rem;
+    width: 28rem;
+    padding: 5px;
+    max-height: max-content;
+    color: #E0B973;
+    text-align: center;
+    background: white;
+    margin: 0;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-bottom: 1px solid rgb(172, 172, 172);
+}

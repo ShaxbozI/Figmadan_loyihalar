@@ -1,0 +1,17 @@
+.navbar-section{
+    background-image: url(../image/palm-trees-at-night-wievport-2.png);
+}
+
+/* about */
+.card-img p{
+    left: 50%;
+    bottom: 56px;
+    transform: translate(-50%);
+    font-size: 30px;
+    width: 470px;
+    max-height: max-content;
+    color: #E0B973;
+    letter-spacing: 2px;
+    border-bottom: 1px solid rgb(172, 172, 172);
+}
+/* /about */

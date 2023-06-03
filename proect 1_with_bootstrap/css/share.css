@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Fenix&family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #F7F7F7;
+}
+
+/* navbar */
+.navbar-section{
+    background-size: cover;
+    background-position: top;
+}
+
+.logo{
+    background: rgb(20,39,74);
+}
+
+.logo h4, 
+.logo h6 {
+    font-family: 'Fenix', serif;
+    color: #E0B973;
+    letter-spacing: 0.15rem;
+}
+
+.logo h6{
+    font-size: 11px;
+    letter-spacing: 0.4rem;
+}
+
+.menu li{
+    font-size: 1.07rem;
+    list-style: none;
+}
+
+.welcome-title{
+    margin-top: 10rem;
+}
+
+.welcome-title > p,
+.welcome-title > h2{
+    letter-spacing: 2px;
+}
+
+.welcome-title div {
+    color: rgb(224,185,115);
+    letter-spacing: 0.77rem;
+}
+
+.welcome-title div h1{
+    font-family: 'Fenix', serif;
+    font-size: 5.7rem;
+}
+
+.welcome-title div h4{
+    font-family: 'Fenix', serif;
+    font-size: 2.5rem;
+}
+
+.nav-btn h6{
+    color: #E0B973;
+    padding: 0.8rem 3.75rem;
+    background: rgb(20,39,74);
+    max-width: max-content;
+}
+
+.nav-btn h6 img{
+    width: 1.25rem;
+}
+/* /navbar */
+
+
+/* footer */
+.section-footer{
+    font-size: 0.75rem;
+    background: rgb(20,39,74);
+}
+
+.footer-about p{
+    font-size: 10px;
+    line-height: 10px;
+}
+
+.logo-name{
+    max-width: max-content;
+}
+
+.logo-name h6,
+.logo-name p{
+    max-width: max-content;
+    color: #E0B973;
+    letter-spacing: 2px;
+}
+
+.footer li{
+    list-style: none;
+}
+
+.footer-subscribe form input{
+    outline: #E0B973;
+    height: 35px;
+    border: 2px solid #E0B973;
+    border-right: 50px solid #E0B973;
+}
+
+.footer-subscribe form label{
+    top: 7px;
+    right: 2.8rem;
+}
+
+.footer-subscribe label button{
+    color: rgb(20,39,74);
+    font-weight: 600;
+    cursor: pointer;
+}
+/* /footer */

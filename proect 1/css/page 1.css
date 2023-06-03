@@ -1,0 +1,55 @@
+.section-navbar{
+    background-image: url(../image/ciudad-maderas-wievport-1.jpg);
+}
+
+/* About */
+.section-about{
+    padding-top: 3.75rem;
+}
+.about-title{
+    text-align: center;
+    margin: 0;
+}
+.luxury,
+.landscape{
+    display: flex;
+    margin-top: 3.15rem;
+}
+.landscape-title,
+.luxury-title{
+    width: 40%;
+}
+.luxury-img,
+.landscape-img{
+    width: 60%;
+}
+.clearfix{
+    clear: both;
+}
+.luxury-img img,
+.landscape-img img {
+    width: 100%;
+}
+.luxury-title,
+.landscape-title {
+    box-sizing: border-box;
+    padding: 3.15rem 5rem 0 0;
+}
+.page{
+    margin-top: 4.5rem;
+    text-align: center;
+}
+.page-btn{
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(20,39,74);
+    padding: 0.65rem 3.15rem;
+    border: none;
+    border-radius: 5px;
+    background: #E0B973;
+    cursor: pointer;
+}
+
+
+
+
