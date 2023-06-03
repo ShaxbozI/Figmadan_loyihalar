@@ -1,0 +1,2 @@
+# Figmadan_loyihalar
+Figmadan_loyihalar
